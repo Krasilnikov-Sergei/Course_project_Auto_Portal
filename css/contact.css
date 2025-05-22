@@ -111,6 +111,7 @@ header::after {
   padding-bottom: 3.5rem;
   font-size: 4rem;
   margin-top: 10px;
+  margin-bottom: -30px;
 }
 
 .heading span {
@@ -118,58 +119,14 @@ header::after {
   text-transform: uppercase;
 }
 
-.about .row {
-  display: flex;
-  align-items: center;
-  background: #363636;
-  flex-wrap: wrap;
-  border-radius: 50px;
-}
-
-.about .row .image {
-  flex: 1 1 60rem;
-}
-
-.about .row .image img {
-  width: 100%;
-  border-radius: 50px;
-  -o-object-fit: cover;
-     object-fit: cover;
-}
-
-.about .row .content-about {
-  flex: 1 1 45rem;
-  padding: 4rem;
-}
-
-.about .row .content-about h3 {
-  font-size: 40px;
+.contact-info {
   color: white;
-  padding-bottom: 4rem;
+  font-size: 20px;
+  padding: 0.5rem;
 }
 
-.about .row .content-about p {
-  font-size: 30px;
-  color: white;
-  padding: 1rem 0;
-  text-align: left;
-}
-
-.button {
-  margin-top: 3rem;
-  display: inline-block;
-  padding: 0.9rem 3rem;
-  font-size: 30px;
-  color: white;
-  background-color: none;
-  border: 3px solid white;
-  cursor: pointer;
-  transition: transform 0.3s;
-  text-decoration: none;
-}
-
-.button:hover {
-  transform: scale(1.1);
+.contact-info p {
+  margin-bottom: 0.5rem;
 }
 
 .footer {
@@ -235,32 +192,11 @@ header::after {
   .nav-menu.active {
     left: 0;
   }
-  .content-about h3 {
-    font-size: 38px !important;
-  }
-  .content-about p {
-    font-size: 28px !important;
-  }
-  .button {
-    font-size: 28px !important;
-  }
 }
 @media (min-width: 1025px) and (max-width: 1280px) {
   .logo img {
     width: 280px;
     height: 80px;
-  }
-  .nav-menu .nav-item a {
-    font-size: 22px;
-  }
-  .content-about h3 {
-    font-size: 50px !important;
-  }
-  .content-about p {
-    font-size: 30px !important;
-  }
-  .button {
-    font-size: 30px !important;
   }
 }
 @media (min-width: 360px) and (max-width: 500px) {
@@ -299,15 +235,6 @@ header::after {
   }
   .nav-menu.active {
     left: 0;
-  }
-  .content-about h3 {
-    font-size: 30px !important;
-  }
-  .content-about p {
-    font-size: 18px !important;
-  }
-  .button {
-    font-size: 18px !important;
   }
 }
 @media (min-width: 360px) and (max-width: 450px) {
@@ -355,13 +282,4 @@ header::after {
   .nav-menu.active {
     left: 0;
   }
-  .content-about h3 {
-    font-size: 40px !important;
-  }
-  .content-about p {
-    font-size: 20px !important;
-  }
-  .button {
-    font-size: 25px !important;
-  }
-}/*# sourceMappingURL=about.css.map */
+}/*# sourceMappingURL=contact.css.map */
